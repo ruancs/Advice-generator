@@ -20,20 +20,68 @@ body{
 }
 
 .card{
-    width: 800px;
-    height: 100px;
+    width: auto;
+    height: auto;
+    padding-bottom: 30px;
     text-align: center;
     border-radius: 1rem;
     background-color: hsl(215, 20%, 28%);
 }
 
 .advice-id{
+    margin: 20px;
     color:hsl(150, 100%, 66%);
 }
 
 .advice{
+    margin: 30px;
+    margin-bottom: 40px;
     color:hsl(193, 38%, 86%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+.button-random{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;    
+    width: 60px;
+    height: 60px;
+    top: 50px;
+    background-color: hsl(150, 100%, 66%);
+    border-style: none;
+    border-radius: 50%;   
+}
+
+.dicebtn{
+    box-shadow: none;
+    
+    margin: 8px;
+    
+}
+
+
+.divider-mobile{
+    display: none;
+}
+
+@media screen and (max-width:900px) {
+
+    .divider{
+        display:none;
+    }
+
+    .divider-mobile{
+        display: inline;
+        align-items: center;
+    }
+
+    .container{
+        padding: 10px;
+    }
+
+}
