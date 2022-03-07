@@ -43,7 +43,7 @@ body{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-.button-random{
+.btn-random{
     position: relative;
     display: flex;
     align-items: center;
@@ -55,11 +55,16 @@ body{
     background-color: hsl(150, 100%, 66%);
     border-style: none;
     border-radius: 50%;   
+    cursor: pointer;
+}
+
+.btn-random:hover{
+    box-shadow: 0 0 1rem hsl(150, 100%, 66%, 0.75);
+    transition: 0.2s;
 }
 
 .dicebtn{
-    box-shadow: none;
-    
+    box-shadow: none;    
     margin: 8px;
     
 }
