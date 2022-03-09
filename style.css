@@ -30,11 +30,15 @@ body{
 
 .advice-id{
     margin: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 4px;
     color:hsl(150, 100%, 66%);
 }
 
 .advice{
     margin: 30px;
+    font-size: 28px;
     margin-bottom: 40px;
     color:hsl(193, 38%, 86%);
 }
