@@ -43,8 +43,16 @@ body{
     color:hsl(193, 38%, 86%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    position: relative;       
+    margin: 0 auto;
+    font-size: 11px;
+    text-align: center;
+    color: aliceblue;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
 
 
 .btn-random{
